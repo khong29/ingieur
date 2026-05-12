@@ -7,6 +7,7 @@ def draw_picture(width, height):
     sg.fill_background("white")
     
     # make some variables available
+    # the color name "green" does not give correct shade of green, so used hex code instead
     colors = ["red", "#00ff00", "blue", "cyan", "magenta", "yellow"]
 
     # sizes of triangles are based on canvas size
